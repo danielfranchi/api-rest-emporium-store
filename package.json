@@ -83,5 +83,6 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
