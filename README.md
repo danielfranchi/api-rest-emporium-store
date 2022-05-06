@@ -7,11 +7,11 @@
 
  # API Rest Emporium Store
  
-### :rocket: API desenvolvido Nest.Js.
+### :rocket: API desenvolvido Nest.js
 
 ## :wrench: Pré-requisitos
 
-Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina.
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina
 
 - [Git](https://git-scm.com) - Clonar o projeto
 - [Node.js](https://nodejs.org/en/) - Instalar as dependências
@@ -39,32 +39,18 @@ $ yarn start:dev
 # O servidor iniciará na porta:3001 - acesse <http://localhost:3001>
 ```
 
-### :computer: Executando o Front-End (React)
+### :computer: Rotas back-end (API)
 
 ```bash
-# Clone o repositório
-$ https://github.com/danielfranchi/investments.git
+# http://localhost:3001/products
+$ Get / Post / Put / Delete
 
-# Acesse a pasta do projeto no terminal/cmd 
-$ cd investments
-
-# Instale as dependências
-$ npm install
-
-# Execute o aplicativo
-$ npm start
-
-# O terminal vai mostrar uma mensagem
-$ aperte Y no teclado para o servidor iniciar
-
-# O servidor irá iniciar na porta: 3001 - access <http://localhost:3001>
+# http://localhost:3001/users
+$ Get / Post 
 ```
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Redux](https://react-redux.js.org/)
+- [Nest.js](https://nestjs.com/)
