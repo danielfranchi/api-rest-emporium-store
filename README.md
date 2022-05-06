@@ -17,10 +17,6 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 - [Node.js](https://nodejs.org/en/) - Instalar as dependências
 - [VSCode](https://code.visualstudio.com/) - Visualizar o código
 
-### :cloud: Deploy da aplicação no Netlify
-
-:point_right:  [https://mystifying-neumann-a0e265.netlify.app/](https://mystifying-neumann-a0e265.netlify.app/)
-
 ### 🎲 Executando o back-end (API)
 
 ```bash
@@ -36,17 +32,18 @@ $ yarn install
 # Execute a api
 $ yarn start:dev
 
-# O servidor iniciará na porta:3001 - acesse <http://localhost:3001>
+# Acesse o Swagger na porta:3001
+$ http://localhost:3001
 ```
 
 ### :computer: Rotas back-end (API)
 
 ```bash
 # http://localhost:3001/products
-$ Get / Post / Put / Delete
+$ GET / POST / PUT / DELETE
 
 # http://localhost:3001/users
-$ Get / Post 
+$ GET / POST / PUT / DELETE
 ```
 
 ## 🛠 Tecnologias
