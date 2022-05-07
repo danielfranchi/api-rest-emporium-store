@@ -12,7 +12,7 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot(),
     AuthModule,
     MongooseModule.forRoot(
-      `mongodb+srv://${process.env.DATABASE_USER}:${process.env.DATABASE_PASSWORD}@cluster0.pljin.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
+      `mongodb+srv://danielap:2022@cluster0.pljin.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
     ),
     ProductsModule,
     UsersModule,
